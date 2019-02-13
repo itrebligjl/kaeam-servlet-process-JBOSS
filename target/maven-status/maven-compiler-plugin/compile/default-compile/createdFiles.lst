@@ -1,0 +1,3 @@
+com\eamtk\embedded\util\StartupJBPMProcess.class
+com\eamtk\process\App.class
+com\eamtk\embedded\web\ProcessServlet.class

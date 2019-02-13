@@ -1,0 +1,3 @@
+<jboss-web>
+    <context-root>kaeam-servlet-process-JBOSS</context-root>
+</jboss-web>

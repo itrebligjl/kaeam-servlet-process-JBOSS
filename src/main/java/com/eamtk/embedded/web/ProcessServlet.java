@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.eamtk.embedded.util.StartupJBPMProcess;
+
+
 public class ProcessServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
@@ -15,7 +18,7 @@ public class ProcessServlet extends HttpServlet {
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
          throws ServletException, IOException {
 	   
-	  new StartupJBPMProcess(); 
+	   new StartupJBPMProcess();
 	  
       resp.setContentType("text/plain");
       resp.getWriter().write("Hello World! Maven Web Project - KAEAM Servlet Process Edition.");
